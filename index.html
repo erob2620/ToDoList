@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" type="text/css" href="main.css"></link>
+	<script src="jquery-2.1.4.js" type="text/javascript"></script>
+	<script src="jquery-ui.js" type="text/javascript"></script>
+	<script src="main.js"></script>
+</head>
+<body>
+	<div id="header" class="header">
+	  <h1 class="title">Todo list</h1>
+	  <span class="input">
+	  	<button id="saveButton" class="saveButton">Save</button>
+		<input type="text" id="taskName" class="nameInput"></input>
+		<input type="date" id="taskDueDate" class="dateInput"></input>
+		<button id="createButton" class="addButton">Add</button>
+	  </span>
+	</div>
+	<div id="overDueTask">
+		<h2 class="overDue">Overdue</h2>
+		<div id="OverDueSection" class="tasks">
+	
+		</div>
+    </div>
+	<div id="todayTask">
+		<h2 class="today">Today</h2>
+		<div id="taskSection" class="tasks">
+	
+		</div>
+    </div>
+	<div id="tomorrowTask">
+		<h2 class="tomorrow">Tomorrow</h2>
+		<div id="tomorrowSection" class="tasks">
+		
+		</div>
+	</div>
+	<div id="weekTask">
+		<h2 class="week">Within the next 7 days</h2>
+		<div id="weekSection" class="tasks">
+		
+		</div>
+	</div>
+	<div id="futureTask">
+		<h2 class="future">Future</h2>
+		<div id="futureSection" class="tasks">
+		
+		</div>
+	</div>
+</body>
+</html>
